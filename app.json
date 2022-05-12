@@ -6,9 +6,9 @@
       "bot",
       "shell"
     ],
-    "repository": "https://github.com/magneto261290/shell-bot",
-    "website": "https://github.com/magneto261290/shell-bot",
-    "success_url": "https://github.com/magneto261290/shell-bot/blob/master/README.md",
+    "repository": "https://github.com/munnadaniels/edhokati",
+    "website": "https://github.com/munnadaniels/edhokati",
+    "success_url": "https://github.com/munnadaniels/edhokati/blob/master/README.md",
     "stack": "container",
     "env": {
       "BOT_TOKEN": {
