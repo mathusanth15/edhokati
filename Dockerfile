@@ -38,6 +38,13 @@ RUN wget https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz 
     cd ffmpeg-*-static && \
     mv "${PWD}/ffmpeg" "${PWD}/ffprobe" /usr/local/bin/
 
+ENV LANG C.UTF-8
+
+# we don't have an interactive xTerm
+ENV DEBIAN_FRONTEND noninteractive
+
+# sets the TimeZone, to be used inside the container
+ENV TZ Asia/Kolkata
 
 # Copies config(if it exists)
 COPY . .
