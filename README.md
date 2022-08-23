@@ -3,6 +3,9 @@
 <i>I have also compressed the Dockerfile a little bit. </i></br>
 <b><i>This Repo can be mainly used for RClone and FClone</i></b></br>
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mathusanth15/edhokati/actions)
+
+
 # How to use this Bot For Cloning?
 
 1. Deploy app, If using **Gclone/Fclone** fill the env ``ACCOUNTS_FOLDER_LINK`` (the link must point to accounts.zip) and fill env ``RCLONE_CONFIG_BASE64`` for **Rclone**(service account path must be like ``accounts/1.json``, if want to use service account with rclone)
